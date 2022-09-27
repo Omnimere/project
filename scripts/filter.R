@@ -7,3 +7,9 @@ filter_years <- function(dataset = data){
     filter(years > 1997)
   return(new_data)
 }
+
+filter_NA <- function(dataset = data){
+  dataNoNa <- data %>% 
+    filter(!is.na(data))
+  return(dataNoNA)
+}
