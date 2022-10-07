@@ -1,0 +1,10 @@
+Theta # Theta refers to the rate of decline in the value of an option over time
+Tajima.D # The purpose of Tajima's D test  is computed as the difference between two measures of genetic diversity: the mean number of pairwise differences and the number of segregating sites, each scaled so that they are expected to be the same in a neutrally evolving population of constant size
+Tajima.Pi # is to distinguish between a DNA sequence evolving randomly ("neutrally") and one evolving under a non-random process, including directional selection or balancing selection, demographic expansion or contraction, genetic hitchhiking, or introgression.
+Segregating.Sites # positions which show differences (polymorphisms) between related genes in a sequence alignment (are not conserved)
+Max.Pairwise.Difference # The pairwise differences equal the differences between the values in each pair, this column looks at the biggest pair gap.
+Max.Pairwise.Difference.Excluding.Ambiguous #  The pairwise differences equal the differences between the values in each pair, this column looks at the biggest pair gap without ambiguity
+Max.Variable.Block.Length # The Maximum of a data type that is of a specified length that can be changed
+Max.Variable.Block.Length.Excluding.Ambiguous # The Maximum of a data type that is of a specified length that can be changed 
+Min.Pairwise.Difference # The pairwise differences equal the differences between the values in each pair, this column looks at the smallest pair gap.
+Min.Pairwise.Difference.Excluding.Ambiguous # The pairwise differences equal the differences between the values in each pair, this column looks at the smallest  pair gap without ambiguity
