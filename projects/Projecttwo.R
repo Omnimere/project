@@ -1,0 +1,48 @@
+For this first part of the exam, you can either use surveys_complete.csv or your own data. If you are using your own data, you must have data in which you think you have a numerical predictor variable and a numerical response variable. If you are using surveys_complete, you can use weight and hindfoot_length for this.
+
+Save this file in your projects directory. You can either save it in a project two subdirectory, or just put it in projects. Either way is fine.
+
+Load in your data. Which variable will you be using as a predictor, and which as a response? (5 pts)
+# Predictor =   Response = 
+# Answer which column is predictor and which is response
+Plot the two against each other with a scatter plot. Do the data appear to be related linearly? (5 pts)
+# Plot here
+#Answer here
+Fit the linear model. View the summary. (5 pts)
+# Code here
+Does the summary make sense when you compare it to the plot you made? Does our model have good predictive power? Evaluate the residual standard error, intercept, and R-Squared in particular. Would you say your predictor predicts the response? (10 pts)
+# Answer here
+Plot the model on the graph. Increase the size of the text so it is comfortably readable at 5 feet. Make sure axis labels are readable and not overlapping with one another. (5 pts)
+# Code here
+Check the normality of the residuals. Do they look OK? Are we violating assumptions? (5 pts)
+#Code here
+Why is normality of residuals important?
+  
+  #Answer here
+  If you are using surveys_complete: Is there interspecific variation in the linear model? Hint: look at our prior work with facet plots. (15 pts)
+If you are not using surveys_complete: Do you think there are groupings within your data that may have a separate linear model? Try grouping the data by that variable and redoing the lm. If this would not make sense for your data, you may also attempt to do multiple predictor variables. (15 pts)
+
+#code here
+Part Two
+In this portion, you are free to use your own data if you have a categorical predictor variable and a response variable. Otherwise, you may use the columns sex and weight in surveys_complete
+
+First, plot the data grouped by sex (5 pts)
+# plot code here
+Try an ANOVA of this data (5 pt)
+# ANOVA code here
+How about a linear model? What information does this give you that an ANOVA can’t? (5 pts)
+#Code here
+#Answer here
+Plot the lm with the data, with points colored by sex. (10 pts)
+#Plot code here
+Choose any model we’ve looked at so far, but use two predictor variables. Perform an LM, plot the results, and state if this changes your interpretation of the relationship between variables (10 pts)
+# LM Code Here 
+# Plot Code Here 
+# Text answer here
+Part Three
+Add and commit this document (5 pts)
+#Commands here
+Push your changes to github (10 pts)
+#Commands here
+MS students
+My expectation is that you’ll do this with your own data. If any part of this doesn’t make sense with your data, please get in touch ASAP so we can work it out.
